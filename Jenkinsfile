@@ -4,8 +4,8 @@ pipeline {
     environment {
         IMAGE_NAME = "manojkrishnappa/loadgenerator:${GIT_COMMIT}"
         AWS_REGION = "us-west-2"
-        CLUSTER_NAME = "itkannadigaru-cluster"
-        NAMESPACE     = "itkannadigaru"
+        CLUSTER_NAME = "cubemart-cluster"
+        NAMESPACE     = "cubemart"
     }
 
     stages {
